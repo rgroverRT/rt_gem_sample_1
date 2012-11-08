@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = RtGemSample1::VERSION
   s.authors     = ["Russ Grover"]
   s.email       = ["rgrover@redtailtechnology.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/rgroverRT/rt_gem_sample_1"
   s.summary     = %q{trivial gem as a sample}
   s.description = %q{has one method to call to see if gem config and installation is working;  intended as an example only}
 
