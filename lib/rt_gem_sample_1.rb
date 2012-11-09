@@ -10,7 +10,7 @@ module RtGemSample1
     raise ArgumentError, "arg isn't Hash (duck test)." unless some_random_arg.respond_to?(:keys)
     raise ArgumentError, "must be at least two entries in the arg." unless some_random_arg.count >= 2
 
-    return some_random_arg.keys[0]
+    return some_random_arg.keys[1]
   end
 
   # Quick and dirty test framework;  TODO:  real test framework
@@ -25,5 +25,5 @@ module RtGemSample1
     puts "End."
   end
 
-  #RtGemSample1.quick_test
+  RtGemSample1.quick_test
 end
