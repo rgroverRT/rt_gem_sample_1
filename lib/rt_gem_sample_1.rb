@@ -25,5 +25,5 @@ module RtGemSample1
     puts "End."
   end
 
-  RtGemSample1.quick_test
+  #RtGemSample1.quick_test
 end
